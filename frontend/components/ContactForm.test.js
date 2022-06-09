@@ -119,7 +119,7 @@ test('renders all fields text when all fields are submitted.', async () => {
     render(<ContactForm />);
     const firstName = "Seungmin";
     const lastName = "Kim";
-    const email = "anemail@email.com";
+    const email = "email@email.com";
     const message = "hello world";
 
     const firstInput = screen.getByLabelText("First Name*");
